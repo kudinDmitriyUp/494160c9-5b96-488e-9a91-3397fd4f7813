@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -13,7 +13,7 @@ import FaqDouble from '@/components/sections/faq/FaqDouble';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Brain, Building2, CheckCircle, Clock, Cpu, Crown, DollarSign, Dashboard, FileText, Gift, HelpCircle, MessageCircle, Rocket, Search, Star, Target, TrendingUp, Users, Zap } from 'lucide-react';
+import { Brain, Building2, CheckCircle, Clock, Cpu, Crown, DollarSign, FileText, Gift, HelpCircle, MessageCircle, Rocket, Search, Star, Target, TrendingUp, Users, Zap } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -97,7 +97,7 @@ export default function Home() {
             {
               title: "Real-Time Hiring Dashboard",
               description: "Everything you need in one place. No spreadsheets. No guesswork. Complete visibility.",
-              icon: Dashboard
+              icon: CheckCircle
             }
           ]}
         />
